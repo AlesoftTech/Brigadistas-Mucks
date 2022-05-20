@@ -125,61 +125,37 @@
       ],
       "emergency" : [
         {
-            "id": 0,
-            "summary": "Emergencia en el ML",
-            "building": {
-              "id": 0,
-              "name": "Edificio ML"
-            },
-            "locationDetail": "Piso 5 salon 504",
-            "description": "Se produjo un terremoto de grado 7, lo cual derrumbó un edificio",
-            "createdAt": "02-25-2021",
-            "emergencyStatus": {
-              "id": 1,
-              "value": "Resuelto",
-              "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
-              "alt": "icono alt"
-            },
-            "emergencyLevel": {
-              "id": 1,
-              "value": "Leve",
-              "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
-              "alt": "icono alt",
-              "description": "Emergencia leve"
-            },
-            "emergencySubtype": {
-              "id": 1,
-              "emergencyTypeId": 2,
-              "value": "Paciente inconsciente",
-              "description": "Emergencia médica que se relaciona con un paciente inconsciente",
-              "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
-              "alt": "icono alt"
-            },
-            "impactedPeople": "Alfred Diaz"
-          },
-          {
+          "id": 0,
+          "summary": "Emergencia en el ML",
+          "building": {
             "id": 1,
-            "summary": "Emergencia en el Lleras",
-            "building": {
-              "id": 1,
-              "name": "Edificio LLeras"
-            },
-            "locationDetail": "Piso 5 salon 504",
-            "description": "Se produjo un terremoto de grado 7, lo cual derrumbó un edificio",
-            "createdAt": "02-25-2021",
-            "emergencyStatus": {
-              "id": 1,
-              "value": "Resuelto",
-              "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
-              "alt": "icono alt"
-            },
-            "emergencyLevel": {
-              "id": 1,
-              "value": "Leve",
-              "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
-              "alt": "icono alt",
-              "description": "Emergencia leve"
-            },
+            "name": "Edificio ML"
+          },
+          "locationDetail": "Piso 5 salon 504",
+          "description": "Se produjo un terremoto de grado 7, lo cual derrumbó un edificio",
+          "createdAt": "2021-03-30T08:30:00Z",
+          "publishedAt": "2021-03-30T08:30:00Z",
+          "resolvedAt": "2021-03-30T08:30:00Z",
+          "isFalseAlarm": true,
+          "emergencyStatus": {
+            "id": 1,
+            "value": "Resuelto",
+            "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
+            "alt": "icono alt"
+          },
+          "emergencyLevel": {
+            "id": 1,
+            "value": "Leve",
+            "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
+            "alt": "icono alt",
+            "description": "Emergencia leve"
+          },
+          "emergencyTypeAndSubtype": {
+            "id": 2,
+            "value": "Médica",
+            "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
+            "alt": "icono alt",
+            "description": "Emergencia médica",
             "emergencySubtype": {
               "id": 1,
               "emergencyTypeId": 2,
@@ -187,8 +163,68 @@
               "description": "Emergencia médica que se relaciona con un paciente inconsciente",
               "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
               "alt": "icono alt"
-            },
-            "impactedPeople": "Alfred Diaz"
-          }
+            }
+          },
+          "impactedPeople": "Alfred Diaz",
+          "assignedBrigadiers": [
+            {
+              "id": "1",
+              "role": "Brigadier universitario",
+              "login": "ks.blanco",
+              "name": "Kevin Blanco"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "summary": "Emergencia en el LLeras",
+          "building": {
+            "id": 1,
+            "name": "Edificio LL"
+          },
+          "locationDetail": "Piso 5 salon 504",
+          "description": "Se produjo un terremoto de grado 7, lo cual derrumbó un edificio",
+          "createdAt": "2021-03-30T08:30:00Z",
+          "publishedAt": "2021-03-30T08:30:00Z",
+          "resolvedAt": "2021-03-30T08:30:00Z",
+          "isFalseAlarm": true,
+          "emergencyStatus": {
+            "id": 1,
+            "value": "Resuelto",
+            "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
+            "alt": "icono alt"
+          },
+          "emergencyLevel": {
+            "id": 1,
+            "value": "Leve",
+            "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
+            "alt": "icono alt",
+            "description": "Emergencia leve"
+          },
+          "emergencyTypeAndSubtype": {
+            "id": 2,
+            "value": "Médica",
+            "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
+            "alt": "icono alt",
+            "description": "Emergencia médica",
+            "emergencySubtype": {
+              "id": 1,
+              "emergencyTypeId": 2,
+              "value": "Paciente inconsciente",
+              "description": "Emergencia médica que se relaciona con un paciente inconsciente",
+              "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
+              "alt": "icono alt"
+            }
+          },
+          "impactedPeople": "Alfred Diaz",
+          "assignedBrigadiers": [
+            {
+              "id": "1",
+              "role": "Brigadier universitario",
+              "login": "ks.blanco",
+              "name": "Kevin Blanco"
+            }
+          ]
+        }
       ]
 }

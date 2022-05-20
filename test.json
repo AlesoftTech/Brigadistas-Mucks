@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "summary": "Emergencia en el Lleras",
+        "building": {
+            "id": 1,
+            "name": "Edificio LLeras"
+        },
+        "locationDetail": "Piso 5 salon 504",
+        "description": "Se produjo un terremoto de grado 7, lo cual derrumbó un edificio",
+        "createdAt": "02-25-2021",
+        "emergencyStatus": {
+            "id": 1,
+            "value": "Resuelto",
+            "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
+            "alt": "icono alt"
+        },
+        "emergencyLevel": {
+            "id": 1,
+            "value": "Leve",
+            "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
+            "alt": "icono alt",
+            "description": "Emergencia leve"
+        },
+        "emergencyType" : {
+            "id": 0,
+            "value": "Tipo 1",
+            "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
+            "alt": "icono alt",
+            "description": "Emergencia médica",
+            "emergencySubtype" : {
+                "id": 1,
+                "emergencyTypeId": 0,
+                "value": "Subtipo 1 del Tipo 1",
+                "description": "Emergencia médica que se relaciona con un paciente inconsciente",
+                "icon": "https://github.com/TheSoftwareDesignLab/CovidAngel-ux-ui/blob/master/Logo2.0/Android/drawable-ldpi/Logo.png",
+                "alt": "icono alt"
+            }
+        },
+        "impactedPeople": "Alfred Diaz"
+    }
+]
